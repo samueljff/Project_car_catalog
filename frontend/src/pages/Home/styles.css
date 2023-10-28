@@ -40,18 +40,19 @@
     justify-content: center;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) { 
     .home-content-container {
         width: 500px;
     }
     .home-image-container {
         width: 333wpx;
         height: 300px;
+        align-items: end;
     }
 
     .home-card {
         width: 536px;
-        height: 365px;
+        height: 400px;
     }
 
     .home-content-container h1 {
