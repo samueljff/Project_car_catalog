@@ -1,12 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
+import './assets/styles/custom.scss';
 import './App.css';
+import Routes from 'Routes';
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>Trabalho Capitulo 01</h1>
-    </div>
+    <>
+      <Routes/>
+    </>
   );
 };
 

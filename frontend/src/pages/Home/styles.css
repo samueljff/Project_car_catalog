@@ -1,0 +1,134 @@
+.home-container {
+    margin: 130px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.home-card {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: end;
+    width: auto;
+    height: 365px;
+}
+
+.home-content-container {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFF;
+    width: 320px;
+}
+
+.home-content-container h1 {
+    width: 257px;
+    font-size: 22px;
+}
+
+.home-content-container p {
+    padding: 15px;
+    width: 265px;
+    font-size: 14px;
+}
+
+.home-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 576px) {
+    .home-content-container {
+        width: 500px;
+    }
+    .home-image-container {
+        width: 333wpx;
+        height: 300px;
+    }
+
+    .home-card {
+        width: 536px;
+        height: 365px;
+    }
+
+    .home-content-container h1 {
+        text-align: center;
+        width: 500px;
+        font-size: 36px;
+    }
+
+    .home-content-container p {
+        text-align: center;
+        width: 450px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .home-container {
+        margin: 120px 20px 0px 20px;
+    }
+
+    .home-card {
+        width: 728px;
+        height: 475px;
+        padding-top: 40px;
+    }
+
+    .home-content-container {
+        width: 700px;
+    }
+
+    .home-content-container p {
+        padding: 0px 0px 80px 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .home-card {
+        width: 952px;
+        height: 500px;
+    }
+
+    .home-content-container {
+        width: 900px;
+    }
+
+    .home-image-container {
+        height: 350px;
+        height: 150;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-container {
+        padding: calc(((85vh - 480px) / 2)- 20px) 0;
+    }
+
+    .home-image-container {
+        height: 200px;
+        height: 100;
+    }
+
+    .home-card {
+        flex-direction: row;
+        width: 1000px;
+        height: 350px;
+        padding: 40px;
+    }
+
+    .home-content-container {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1366px) {
+    .home-card {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+}

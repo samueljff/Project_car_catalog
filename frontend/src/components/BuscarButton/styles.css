@@ -1,0 +1,90 @@
+.btn-buscar-container {
+    max-width: auto;
+    height: 80px;
+    margin: 120px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-buscar-left {
+    width: 199px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    background: #FFFFFF;
+}
+
+.btn-buscar-left, input {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start; 
+    margin: 10px 0px 10px 10px;
+    color: #A7A7A7;
+    border: none;
+}
+
+.btn-buscar-right {
+    width: 77px;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+    background: #00285F;
+}
+
+.btn-buscar-right, button {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 10px 10px 0px;
+    border: none;
+    background-color: #00285F;
+    color: #FFFFFF;
+}
+
+@media (min-width: 576px){
+    .btn-buscar-container {
+        width: auto;
+        height: 123px;
+        margin-left: 5px;
+    }
+
+    .btn-buscar-left { 
+        width: 320px;
+    }
+
+    .btn-buscar-right {
+        width: 174px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 768px){
+    .btn-buscar-container {
+        width: auto;
+        margin-left: 10px;
+    }
+
+    .btn-buscar-left { 
+        width: 516px;
+    }
+}
+
+@media (min-width: 992px){
+    .btn-buscar-left { 
+        width: 600px;
+    }
+}
+
+@media (min-width: 1200px){
+    .btn-buscar-left { 
+        width: 700px;
+    }
+}
+
+@media (min-width: 1366px){
+    .btn-buscar-container {
+        width: 1315px;
+    }
+
+    .btn-buscar-left { 
+        width: 700px;
+    }
+}
