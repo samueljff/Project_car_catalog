@@ -87,4 +87,12 @@
     .btn-buscar-left { 
         width: 700px;
     }
+    
+}
+
+@media (min-width: 1400px){
+    .btn-buscar-container {
+        width: 1370px;
+    }
+    
 }

@@ -10,3 +10,9 @@
         margin-left: 10px;
     }
 }
+
+@media (min-width: 1366px){
+    .product-container {
+        margin-left: 40px;
+    }
+}
