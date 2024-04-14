@@ -1,5 +1,4 @@
 import './styles.css';
-import ButtonIcon from 'components/ButtonIcon';
 import { Link } from 'react-router-dom';
 import ProductCard from 'components/ProductCard';
 import BuscarButton from 'components/BuscarButton';

@@ -9,8 +9,9 @@
 
 .main-content-nav {
     width: 100%;
-    max-width: 1010px;
+    max-width: 300px;
     margin: 0 auto;
+    padding: 0;
 }
 
 .main-container-menu{
@@ -37,5 +38,26 @@
 @media (min-width: 576px) {
     .main-container-menu{
         justify-content: flex-end;
+    }
+    .main-content-nav {
+        max-width: 536px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-content-nav {
+        max-width: 728px;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-content-nav {
+        max-width: 952px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-content-nav {
+        max-width: 1000px;
     }
 }
